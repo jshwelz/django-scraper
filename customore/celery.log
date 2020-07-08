@@ -1,0 +1,148 @@
+[2020-07-08 09:47:38,895: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-07-08 09:47:38,911: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-08 09:47:39,943: INFO/MainProcess] mingle: all alone
+[2020-07-08 09:47:39,978: WARNING/MainProcess] /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-08 09:47:39,978: INFO/MainProcess] celery@Joshuas-MacBook-Pro-2.local ready.
+[2020-07-08 10:05:34,541: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-07-08 10:05:34,561: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-08 10:05:35,598: INFO/MainProcess] mingle: all alone
+[2020-07-08 10:05:35,624: WARNING/MainProcess] /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-08 10:05:35,624: INFO/MainProcess] celery@Joshuas-MacBook-Pro-2.local ready.
+[2020-07-08 10:07:42,096: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-07-08 10:07:42,115: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-08 10:07:43,150: INFO/MainProcess] mingle: all alone
+[2020-07-08 10:07:43,176: WARNING/MainProcess] /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-08 10:07:43,176: INFO/MainProcess] celery@Joshuas-MacBook-Pro-2.local ready.
+[2020-07-08 10:09:53,843: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-07-08 10:09:53,856: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-08 10:09:54,890: INFO/MainProcess] mingle: all alone
+[2020-07-08 10:09:54,913: WARNING/MainProcess] /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-08 10:09:54,913: INFO/MainProcess] celery@Joshuas-MacBook-Pro-2.local ready.
+[2020-07-08 10:12:42,816: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379//: Error 99 connecting to localhost:6379. Address not available..
+Trying again in 2.00 seconds... (1/100)
+
+[2020-07-08 10:12:44,827: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379//: Error 99 connecting to localhost:6379. Address not available..
+Trying again in 4.00 seconds... (2/100)
+
+[2020-07-08 10:12:48,839: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379//: Error 99 connecting to localhost:6379. Address not available..
+Trying again in 6.00 seconds... (3/100)
+
+[2020-07-08 10:12:54,860: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379//: Error 99 connecting to localhost:6379. Address not available..
+Trying again in 8.00 seconds... (4/100)
+
+[2020-07-08 10:13:02,887: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379//: Error 99 connecting to localhost:6379. Address not available..
+Trying again in 10.00 seconds... (5/100)
+
+[2020-07-08 10:13:12,889: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379//: Error 99 connecting to localhost:6379. Address not available..
+Trying again in 12.00 seconds... (6/100)
+
+[2020-07-08 10:13:24,927: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379//: Error 99 connecting to localhost:6379. Address not available..
+Trying again in 14.00 seconds... (7/100)
+
+[2020-07-08 10:13:38,976: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379//: Error 99 connecting to localhost:6379. Address not available..
+Trying again in 16.00 seconds... (8/100)
+
+[2020-07-08 10:13:54,981: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379//: Error 99 connecting to localhost:6379. Address not available..
+Trying again in 18.00 seconds... (9/100)
+
+[2020-07-08 10:14:12,997: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379//: Error 99 connecting to localhost:6379. Address not available..
+Trying again in 20.00 seconds... (10/100)
+
+[2020-07-08 10:14:33,060: ERROR/MainProcess] consumer: Cannot connect to redis://localhost:6379//: Error 99 connecting to localhost:6379. Address not available..
+Trying again in 22.00 seconds... (11/100)
+
+[2020-07-08 10:15:35,903: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-08 10:15:35,918: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-08 10:15:36,957: INFO/MainProcess] mingle: all alone
+[2020-07-08 10:15:36,998: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-08 10:15:37,000: INFO/MainProcess] celery@a8097d44a7e4 ready.
+[2020-07-08 10:15:37,183: INFO/MainProcess] Received task: scraper.sample_tasks.create_task[df3e49a2-a4ef-40ea-8b79-3a63ddc45647]  
+[2020-07-08 10:15:37,187: WARNING/ForkPoolWorker-1] over here
+[2020-07-08 10:15:37,188: INFO/MainProcess] Received task: scraper.sample_tasks.create_task[e7e108b5-6381-4669-bda0-70170e262de9]  
+[2020-07-08 10:15:37,195: INFO/MainProcess] Received task: scraper.sample_tasks.create_task[6f319b03-032c-4c29-b5f0-19c771f78d67]  
+[2020-07-08 10:15:37,200: WARNING/ForkPoolWorker-2] over here
+[2020-07-08 10:15:37,199: WARNING/ForkPoolWorker-3] over here
+[2020-07-08 10:15:37,209: INFO/MainProcess] Received task: scraper.sample_tasks.create_task[dd1e305a-4c2a-4ca4-acf9-460b79f58ac2]  
+[2020-07-08 10:15:37,216: WARNING/ForkPoolWorker-4] over here
+[2020-07-08 10:15:37,672: ERROR/ForkPoolWorker-4] Task scraper.sample_tasks.create_task[dd1e305a-4c2a-4ca4-acf9-460b79f58ac2] raised unexpected: FeatureNotFound("Couldn't find a tree builder with the features you requested: html5lib. Do you need to install a parser library?")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/scraper/sample_tasks.py", line 10, in create_task
+    return get_stats(keyword)
+  File "/usr/src/app/scraper/scrapers/lazada.py", line 37, in get_stats
+    result = scrape(keyword)
+  File "/usr/src/app/scraper/scrapers/lazada.py", line 12, in scrape
+    soup_lazada = BeautifulSoup(page.content, 'html5lib')
+  File "/usr/local/lib/python3.8/site-packages/bs4/__init__.py", line 242, in __init__
+    raise FeatureNotFound(
+bs4.FeatureNotFound: Couldn't find a tree builder with the features you requested: html5lib. Do you need to install a parser library?
+[2020-07-08 10:15:53,281: ERROR/ForkPoolWorker-1] Task scraper.sample_tasks.create_task[df3e49a2-a4ef-40ea-8b79-3a63ddc45647] raised unexpected: FeatureNotFound("Couldn't find a tree builder with the features you requested: html5lib. Do you need to install a parser library?")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/scraper/sample_tasks.py", line 10, in create_task
+    return get_stats(keyword)
+  File "/usr/src/app/scraper/scrapers/lazada.py", line 37, in get_stats
+    result = scrape(keyword)
+  File "/usr/src/app/scraper/scrapers/lazada.py", line 12, in scrape
+    soup_lazada = BeautifulSoup(page.content, 'html5lib')
+  File "/usr/local/lib/python3.8/site-packages/bs4/__init__.py", line 242, in __init__
+    raise FeatureNotFound(
+bs4.FeatureNotFound: Couldn't find a tree builder with the features you requested: html5lib. Do you need to install a parser library?
+[2020-07-08 10:16:11,477: ERROR/ForkPoolWorker-2] Task scraper.sample_tasks.create_task[6f319b03-032c-4c29-b5f0-19c771f78d67] raised unexpected: FeatureNotFound("Couldn't find a tree builder with the features you requested: html5lib. Do you need to install a parser library?")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/scraper/sample_tasks.py", line 10, in create_task
+    return get_stats(keyword)
+  File "/usr/src/app/scraper/scrapers/lazada.py", line 37, in get_stats
+    result = scrape(keyword)
+  File "/usr/src/app/scraper/scrapers/lazada.py", line 12, in scrape
+    soup_lazada = BeautifulSoup(page.content, 'html5lib')
+  File "/usr/local/lib/python3.8/site-packages/bs4/__init__.py", line 242, in __init__
+    raise FeatureNotFound(
+bs4.FeatureNotFound: Couldn't find a tree builder with the features you requested: html5lib. Do you need to install a parser library?
+[2020-07-08 10:16:16,873: INFO/MainProcess] Received task: scraper.sample_tasks.create_task[00e823c9-207b-4e67-a269-d38d81dc8d3b]  
+[2020-07-08 10:16:16,878: WARNING/ForkPoolWorker-1] over here
+[2020-07-08 10:16:20,079: ERROR/ForkPoolWorker-3] Task scraper.sample_tasks.create_task[e7e108b5-6381-4669-bda0-70170e262de9] raised unexpected: FeatureNotFound("Couldn't find a tree builder with the features you requested: html5lib. Do you need to install a parser library?")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/scraper/sample_tasks.py", line 10, in create_task
+    return get_stats(keyword)
+  File "/usr/src/app/scraper/scrapers/lazada.py", line 37, in get_stats
+    result = scrape(keyword)
+  File "/usr/src/app/scraper/scrapers/lazada.py", line 12, in scrape
+    soup_lazada = BeautifulSoup(page.content, 'html5lib')
+  File "/usr/local/lib/python3.8/site-packages/bs4/__init__.py", line 242, in __init__
+    raise FeatureNotFound(
+bs4.FeatureNotFound: Couldn't find a tree builder with the features you requested: html5lib. Do you need to install a parser library?
+[2020-07-08 10:32:32,356: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-08 10:32:32,374: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-08 10:32:33,407: INFO/MainProcess] mingle: all alone
+[2020-07-08 10:32:33,438: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-08 10:32:33,440: INFO/MainProcess] celery@d19e5d8f390e ready.
+[2020-07-08 10:32:47,094: INFO/MainProcess] Received task: scraper.sample_tasks.create_task[f2162d23-bc6b-4dde-93d8-0f50bf5bb807]  
+[2020-07-08 10:32:47,099: WARNING/ForkPoolWorker-1] over here
+[2020-07-08 10:37:01,775: INFO/ForkPoolWorker-1] Task scraper.sample_tasks.create_task[f2162d23-bc6b-4dde-93d8-0f50bf5bb807] succeeded in 254.95513410000058s: {'brands': ['Maybelline', 'Miss Rose', 'lameila', 'ByRossie', 'Lagivado', 'images', 'Kiss Beauty', 'BBia', 'EOM', 'NEOP', 'Black Rouge', 'L\'Oreal Paris', '3CE', 'kisson', 'Chu Lipstick'], 'stats': [{'brand': 'Maybelline', 'share': 0}, {'brand': 'Miss Rose', 'share': 2}, {'brand': 'lameila', 'share': 2}, {'brand': 'ByRossie', 'share': 2}, {'brand': 'Lagivado', 'share': 7}, {'brand': 'images', 'share': 7}, {'brand': 'Kiss Beauty', 'share': 7}, {'brand': 'BBia', 'share': 7}, {'brand': 'EOM', 'share': 7}, {'brand': 'NEOP', 'share': 7}, {'brand': 'Black Rouge', 'share': 13}, {'brand': 'L\'Oreal Paris', 'share': 13}, {'brand': '3CE', 'share': 15}, {'brand': 'kisson', 'share': 15}, {'brand': 'Chu Lipstick', 'share': 17}]}

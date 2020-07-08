@@ -1,0 +1,34 @@
+version: '3.7'
+
+services:
+  web:
+    build: ./customore        
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./customore:/usr/src/app/
+    ports:
+      - 8000
+    environment:
+      - DEBUG=1
+      - SECRET_KEY=dbaa1_i7%*3r9-=z-+_mz4r-!qeed@(-a_r(g@k8jo8y3r27%m
+      - DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]
+      - CELERY_BROKER=redis://redis:6379/0
+      - CELERY_BACKEND=redis://redis:6379/0
+  celery:
+    build: ./customore
+    command: celery -A customore worker --loglevel=info --logfile=celery.log
+    volumes:
+      - ./customore:/usr/src/app
+    environment:
+      - DEBUG=1
+      - SECRET_KEY=dbaa1_i7%*3r9-=z-+_mz4r-!qeed@(-a_r(g@k8jo8y3r27%m
+      - DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]
+      - CELERY_BROKER=redis://redis:6379/0
+      - CELERY_BACKEND=redis://redis:6379/0
+    depends_on:
+      - web
+      - redis
+  redis:
+    image: redis:5-alpine
+
+        
