@@ -146,3 +146,485 @@ bs4.FeatureNotFound: Couldn't find a tree builder with the features you requeste
 [2020-07-08 10:32:47,094: INFO/MainProcess] Received task: scraper.sample_tasks.create_task[f2162d23-bc6b-4dde-93d8-0f50bf5bb807]  
 [2020-07-08 10:32:47,099: WARNING/ForkPoolWorker-1] over here
 [2020-07-08 10:37:01,775: INFO/ForkPoolWorker-1] Task scraper.sample_tasks.create_task[f2162d23-bc6b-4dde-93d8-0f50bf5bb807] succeeded in 254.95513410000058s: {'brands': ['Maybelline', 'Miss Rose', 'lameila', 'ByRossie', 'Lagivado', 'images', 'Kiss Beauty', 'BBia', 'EOM', 'NEOP', 'Black Rouge', 'L\'Oreal Paris', '3CE', 'kisson', 'Chu Lipstick'], 'stats': [{'brand': 'Maybelline', 'share': 0}, {'brand': 'Miss Rose', 'share': 2}, {'brand': 'lameila', 'share': 2}, {'brand': 'ByRossie', 'share': 2}, {'brand': 'Lagivado', 'share': 7}, {'brand': 'images', 'share': 7}, {'brand': 'Kiss Beauty', 'share': 7}, {'brand': 'BBia', 'share': 7}, {'brand': 'EOM', 'share': 7}, {'brand': 'NEOP', 'share': 7}, {'brand': 'Black Rouge', 'share': 13}, {'brand': 'L\'Oreal Paris', 'share': 13}, {'brand': '3CE', 'share': 15}, {'brand': 'kisson', 'share': 15}, {'brand': 'Chu Lipstick', 'share': 17}]}
+[2020-07-08 11:38:35,122: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-08 11:38:35,145: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-08 11:38:36,183: INFO/MainProcess] mingle: all alone
+[2020-07-08 11:38:36,206: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-08 11:38:36,207: INFO/MainProcess] celery@ae02394b4fdc ready.
+[2020-07-08 11:38:53,446: INFO/MainProcess] Received task: scraper.sample_tasks.create_task[220f43a2-692e-4542-a095-90c48eff7d37]  
+[2020-07-08 11:38:53,449: WARNING/ForkPoolWorker-1] over here
+[2020-07-08 11:41:24,384: INFO/ForkPoolWorker-1] Task scraper.sample_tasks.create_task[220f43a2-692e-4542-a095-90c48eff7d37] succeeded in 151.10719670000253s: {'brands': ['Maybelline', 'Miss Rose', 'lameila', 'ByRossie', 'Lagivado', 'images', 'Kiss Beauty', 'BBia', 'EOM', 'NEOP', 'Black Rouge', 'L\'Oreal Paris', '3CE', 'kisson', 'Chu Lipstick'], 'stats': [{'brand': 'Maybelline', 'share': 0}, {'brand': 'Miss Rose', 'share': 3}, {'brand': 'lameila', 'share': 3}, {'brand': 'ByRossie', 'share': 3}, {'brand': 'Lagivado', 'share': 9}, {'brand': 'images', 'share': 9}, {'brand': 'Kiss Beauty', 'share': 9}, {'brand': 'BBia', 'share': 9}, {'brand': 'EOM', 'share': 9}, {'brand': 'NEOP', 'share': 11}, {'brand': 'Black Rouge', 'share': 11}, {'brand': 'L\'Oreal Paris', 'share': 11}, {'brand': '3CE', 'share': 11}, {'brand': 'kisson', 'share': 11}, {'brand': 'Chu Lipstick', 'share': 11}]}
+[2020-07-13 01:55:22,457: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-13 01:55:22,475: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-13 01:55:23,534: INFO/MainProcess] mingle: all alone
+[2020-07-13 01:55:23,575: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-13 01:55:23,578: INFO/MainProcess] celery@b9f29fcfeae6 ready.
+[2020-07-13 02:37:33,503: INFO/MainProcess] Received task: scraper.sample_tasks.create_task[3ed5d9e0-9078-44f3-ae9f-61d51188dbb3]  
+[2020-07-13 02:37:33,509: WARNING/ForkPoolWorker-1] over here
+[2020-07-13 02:38:15,123: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-13 02:38:15,142: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-13 02:38:16,175: INFO/MainProcess] mingle: all alone
+[2020-07-13 02:38:16,215: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-13 02:38:16,217: INFO/MainProcess] celery@31614efd145a ready.
+[2020-07-13 02:38:54,515: INFO/MainProcess] Received task: scraper.sample_tasks.create_task[dc1b0f96-5a1b-4176-8134-039f148d2521]  
+[2020-07-13 02:38:54,519: WARNING/ForkPoolWorker-1] over here
+[2020-07-13 02:43:39,561: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-13 02:43:39,581: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-13 02:43:40,613: INFO/MainProcess] mingle: all alone
+[2020-07-13 02:43:40,641: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-13 02:43:40,642: INFO/MainProcess] celery@2039ea2624a5 ready.
+[2020-07-13 03:04:34,755: INFO/MainProcess] Received task: scraper.sample_tasks.create_task[fba9f667-f969-42b7-af84-b56fe2f4638e]  
+[2020-07-13 03:04:34,760: WARNING/ForkPoolWorker-1] over here
+[2020-07-13 03:06:03,063: INFO/ForkPoolWorker-1] Task scraper.sample_tasks.create_task[fba9f667-f969-42b7-af84-b56fe2f4638e] succeeded in 88.37225389998639s: {'brands': ['Maybelline', 'Miss Rose', 'lameila', 'ByRossie', 'Lagivado', 'images', 'Kiss Beauty', 'BBia', 'EOM', 'NEOP', 'Black Rouge', 'L\'Oreal Paris', '3CE', 'kisson', 'Chu Lipstick'], 'stats': [{'brand': 'Maybelline', 'share': 0}, {'brand': 'Miss Rose', 'share': 3}, {'brand': 'lameila', 'share': 3}, {'brand': 'ByRossie', 'share': 3}, {'brand': 'Lagivado', 'share': 9}, {'brand': 'images', 'share': 9}, {'brand': 'Kiss Beauty', 'share': 9}, {'brand': 'BBia', 'share': 9}, {'brand': 'EOM', 'share': 9}, {'brand': 'NEOP', 'share': 9}, {'brand': 'Black Rouge', 'share': 15}, {'brand': 'L\'Oreal Paris', 'share': 15}, {'brand': '3CE', 'share': 20}, {'brand': 'kisson', 'share': 20}, {'brand': 'Chu Lipstick', 'share': 20}]}
+[2020-07-14 00:26:36,842: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-14 00:26:36,859: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-14 00:26:37,900: INFO/MainProcess] mingle: all alone
+[2020-07-14 00:26:37,937: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-14 00:26:37,942: INFO/MainProcess] celery@31ebfd386515 ready.
+[2020-07-14 00:27:02,258: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_lazada[27b779c4-4ff6-41cf-af6b-2bb102e51511]  
+[2020-07-14 00:27:02,263: WARNING/ForkPoolWorker-1] over here
+[2020-07-14 00:27:02,264: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_shopee[278bf42d-e62b-4e03-85c9-284c1e55d724]  
+[2020-07-14 00:27:02,269: WARNING/ForkPoolWorker-3] over here 2
+[2020-07-14 00:29:21,169: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-14 00:29:21,186: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-14 00:29:22,220: INFO/MainProcess] mingle: all alone
+[2020-07-14 00:29:22,248: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-14 00:29:22,250: INFO/MainProcess] celery@61738b002590 ready.
+[2020-07-14 00:29:36,157: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_lazada[56d81dac-f87c-4b1c-b76e-15ecd2f60b8b]  
+[2020-07-14 00:29:36,160: WARNING/ForkPoolWorker-1] over here
+[2020-07-14 00:29:36,162: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_shopee[f3585ce7-f6f1-4dc8-bf53-de2bde5ad610]  
+[2020-07-14 00:29:36,165: WARNING/ForkPoolWorker-3] over here 2
+[2020-07-14 00:30:30,900: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-14 00:30:30,933: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-14 00:30:31,986: INFO/MainProcess] mingle: all alone
+[2020-07-14 00:30:32,009: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-14 00:30:32,011: INFO/MainProcess] celery@f2e0e73d8736 ready.
+[2020-07-14 00:30:53,482: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_lazada[2e4e413c-2299-4f1c-ab43-2f248cc946f5]  
+[2020-07-14 00:30:53,486: WARNING/ForkPoolWorker-1] over here
+[2020-07-14 00:30:53,487: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_shopee[7a4489a0-9393-4a55-b0cd-d7ef46f5b9d6]  
+[2020-07-14 00:30:53,489: WARNING/ForkPoolWorker-3] over here 2
+[2020-07-14 00:33:51,666: INFO/ForkPoolWorker-1] Task scraper.sample_tasks.create_task_lazada[2e4e413c-2299-4f1c-ab43-2f248cc946f5] succeeded in 178.38877130000037s: {'brands': ['Maybelline', 'Miss Rose', 'lameila', 'CELLIGHT 8', 'ByRossie', 'Lagivado', 'images', 'Kiss Beauty', 'BBia', 'EOM', 'NEOP', 'Black Rouge', 'L\'Oreal Paris', '3CE', 'kisson', 'Chu Lipstick'], 'stats': [{'brand': 'Maybelline', 'share': 0}, {'brand': 'Miss Rose', 'share': 3}, {'brand': 'lameila', 'share': 3}, {'brand': 'CELLIGHT 8', 'share': 3}, {'brand': 'ByRossie', 'share': 3}, {'brand': 'Lagivado', 'share': 9}, {'brand': 'images', 'share': 9}, {'brand': 'Kiss Beauty', 'share': 9}, {'brand': 'BBia', 'share': 9}, {'brand': 'EOM', 'share': 9}, {'brand': 'NEOP', 'share': 9}, {'brand': 'Black Rouge', 'share': 15}, {'brand': 'L\'Oreal Paris', 'share': 15}, {'brand': '3CE', 'share': 17}, {'brand': 'kisson', 'share': 17}, {'brand': 'Chu Lipstick', 'share': 17}]}
+[2020-07-14 00:35:56,090: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-14 00:35:56,113: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-14 00:35:57,148: INFO/MainProcess] mingle: all alone
+[2020-07-14 00:35:57,184: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-14 00:35:57,187: INFO/MainProcess] celery@60aed798e3df ready.
+[2020-07-14 00:36:52,409: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_lazada[01940e53-cadb-40a7-a6f1-c8ef9ad2c178]  
+[2020-07-14 00:36:52,414: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_shopee[589aefc6-4a00-4b1d-ac76-007330cadaa1]  
+[2020-07-14 00:36:52,417: WARNING/ForkPoolWorker-3] over here 2
+[2020-07-14 00:36:52,417: WARNING/ForkPoolWorker-1] over here
+[2020-07-14 00:38:04,862: INFO/ForkPoolWorker-1] Task scraper.sample_tasks.create_task_lazada[01940e53-cadb-40a7-a6f1-c8ef9ad2c178] succeeded in 72.51413580001099s: {'brands': ['Maybelline', 'Miss Rose', 'lameila', 'ByRossie', 'Lagivado', 'images', 'Kiss Beauty', 'BBia', 'EOM', 'NEOP', 'Black Rouge', 'L\'Oreal Paris', '3CE', 'kisson', 'Chu Lipstick'], 'stats': [{'brand': 'Maybelline', 'share': 0}, {'brand': 'Miss Rose', 'share': 3}, {'brand': 'lameila', 'share': 3}, {'brand': 'ByRossie', 'share': 3}, {'brand': 'Lagivado', 'share': 9}, {'brand': 'images', 'share': 9}, {'brand': 'Kiss Beauty', 'share': 9}, {'brand': 'BBia', 'share': 9}, {'brand': 'EOM', 'share': 9}, {'brand': 'NEOP', 'share': 9}, {'brand': 'Black Rouge', 'share': 9}, {'brand': 'L\'Oreal Paris', 'share': 9}, {'brand': '3CE', 'share': 18}, {'brand': 'kisson', 'share': 18}, {'brand': 'Chu Lipstick', 'share': 18}]}
+[2020-07-14 00:51:57,616: INFO/ForkPoolWorker-3] Task scraper.sample_tasks.create_task_shopee[589aefc6-4a00-4b1d-ac76-007330cadaa1] succeeded in 906.2347072999983s: {'brands': ['No Brand', 'kiko', 'M.A.C', 'mamonde', 'Maybelline New York', 'Shu uemura', 'clio', 'lilybyred', 'maycreate', '3 Concept Eyes', 'Black Rouge', 'AOA', 'Charlotte Tilbury', 'Cosluxe', 'G9 SKIN', 'LAMUSELAND', 'SACE LADY', 'SANIYE', 'Sivanna Colors', 'Wet n Wild'], 'stats': [{'brand': 'No Brand', 'share': 0}, {'brand': 'kiko', 'share': 0}, {'brand': 'M.A.C', 'share': 0}, {'brand': 'mamonde', 'share': 0}, {'brand': 'Maybelline New York', 'share': 1}, {'brand': 'Shu uemura', 'share': 1}, {'brand': 'clio', 'share': 1}, {'brand': 'lilybyred', 'share': 1}, {'brand': 'maycreate', 'share': 1}, {'brand': '3 Concept Eyes', 'share': 1}, {'brand': 'Black Rouge', 'share': 1}, {'brand': 'AOA', 'share': 1}, {'brand': 'Charlotte Tilbury', 'share': 1}, {'brand': 'Cosluxe', 'share': 1}, {'brand': 'G9 SKIN', 'share': 1}, {'brand': 'LAMUSELAND', 'share': 1}, {'brand': 'SACE LADY', 'share': 1}, {'brand': 'SANIYE', 'share': 1}, {'brand': 'Sivanna Colors', 'share': 1}, {'brand': 'Wet n Wild', 'share': 1}]}
+[2020-07-14 00:55:25,460: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-14 00:55:25,472: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-14 00:55:26,505: INFO/MainProcess] mingle: all alone
+[2020-07-14 00:55:26,533: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-14 00:55:26,535: INFO/MainProcess] celery@4d30f9db64fb ready.
+[2020-07-14 00:55:31,607: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_lazada[2ae7ac57-53c8-4704-b642-75c0dfd35e76]  
+[2020-07-14 00:55:31,611: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_shopee[bdad4f21-b193-4903-9886-22ae7b9425fb]  
+[2020-07-14 00:55:31,614: WARNING/ForkPoolWorker-1] over here
+[2020-07-14 00:55:31,615: WARNING/ForkPoolWorker-3] over here 2
+[2020-07-14 00:56:18,331: INFO/ForkPoolWorker-3] Task scraper.sample_tasks.create_task_shopee[bdad4f21-b193-4903-9886-22ae7b9425fb] succeeded in 46.788020799984224s: {'brands': ['No Brand', 'kiko', 'M.A.C', 'mamonde', 'Maybelline New York', 'Shu uemura', 'clio', 'lilybyred', 'maycreate', '3 Concept Eyes', 'Black Rouge', 'AOA', 'Charlotte Tilbury', 'Cosluxe', 'G9 SKIN', 'LAMUSELAND', 'SACE LADY', 'SANIYE', 'Sivanna Colors', 'Wet n Wild'], 'stats': [{'brand': 'No Brand', 'share': 0}, {'brand': 'kiko', 'share': 0}, {'brand': 'M.A.C', 'share': 0}, {'brand': 'mamonde', 'share': 0}, {'brand': 'Maybelline New York', 'share': 0}, {'brand': 'Shu uemura', 'share': 0}, {'brand': 'clio', 'share': 0}, {'brand': 'lilybyred', 'share': 0}, {'brand': 'maycreate', 'share': 0}, {'brand': '3 Concept Eyes', 'share': 0}, {'brand': 'Black Rouge', 'share': 0}, {'brand': 'AOA', 'share': 0}, {'brand': 'Charlotte Tilbury', 'share': 0}, {'brand': 'Cosluxe', 'share': 0}, {'brand': 'G9 SKIN', 'share': 0}, {'brand': 'LAMUSELAND', 'share': 0}, {'brand': 'SACE LADY', 'share': 0}, {'brand': 'SANIYE', 'share': 0}, {'brand': 'Sivanna Colors', 'share': 0}, {'brand': 'Wet n Wild', 'share': 0}]}
+[2020-07-14 00:56:42,171: ERROR/ForkPoolWorker-1] Task scraper.sample_tasks.create_task_lazada[2ae7ac57-53c8-4704-b642-75c0dfd35e76] raised unexpected: IndexError('list index out of range')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/scraper/sample_tasks.py", line 10, in create_task_lazada
+    return get_stats(keyword)
+  File "/usr/src/app/scraper/scrapers/lazada.py", line 37, in get_stats
+    result = scrape(keyword)
+  File "/usr/src/app/scraper/scrapers/lazada.py", line 14, in scrape
+    brands_div = soup_lazada.find_all('div', class_='c2cYd1')[1]
+IndexError: list index out of range
+[2020-07-14 21:32:37,621: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-14 21:32:37,648: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-14 21:32:38,692: INFO/MainProcess] mingle: all alone
+[2020-07-14 21:32:38,712: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-14 21:32:38,713: INFO/MainProcess] celery@f3b0bff964dd ready.
+[2020-07-14 21:34:25,668: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_lazada[4ef88a7e-4068-4d26-91e3-b635fddff367]  
+[2020-07-14 21:34:25,689: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_shopee[ef0c96f5-7408-495f-8899-5a95c36da3db]  
+[2020-07-14 21:34:25,697: WARNING/ForkPoolWorker-3] over here 2
+[2020-07-14 21:34:25,699: WARNING/ForkPoolWorker-1] over here
+[2020-07-14 21:37:52,877: INFO/ForkPoolWorker-1] Task scraper.sample_tasks.create_task_lazada[4ef88a7e-4068-4d26-91e3-b635fddff367] succeeded in 207.17829097499998s: {'brands': ['Maybelline', 'Miss Rose', 'lameila', 'ByRossie', 'Lagivado', 'images', 'Kiss Beauty', 'BBia', 'EOM', 'NEOP', 'Black Rouge', 'L\'Oreal Paris', '3CE', 'kisson', 'Chu Lipstick'], 'stats': [{'brand': 'Maybelline', 'share': 0}, {'brand': 'Miss Rose', 'share': 0}, {'brand': 'lameila', 'share': 0}, {'brand': 'ByRossie', 'share': 0}, {'brand': 'Lagivado', 'share': 5}, {'brand': 'images', 'share': 5}, {'brand': 'Kiss Beauty', 'share': 5}, {'brand': 'BBia', 'share': 5}, {'brand': 'EOM', 'share': 5}, {'brand': 'NEOP', 'share': 5}, {'brand': 'Black Rouge', 'share': 15}, {'brand': 'L\'Oreal Paris', 'share': 15}, {'brand': '3CE', 'share': 15}, {'brand': 'kisson', 'share': 15}, {'brand': 'Chu Lipstick', 'share': 17}]}
+[2020-07-14 22:31:40,572: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-14 22:31:40,589: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-14 22:31:41,622: INFO/MainProcess] mingle: all alone
+[2020-07-14 22:31:41,644: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-14 22:31:41,646: INFO/MainProcess] celery@99a98e1521a9 ready.
+[2020-07-14 22:33:45,303: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-14 22:33:45,321: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-14 22:33:46,357: INFO/MainProcess] mingle: all alone
+[2020-07-14 22:33:46,380: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-14 22:33:46,381: INFO/MainProcess] celery@ad4bc633dc14 ready.
+[2020-07-14 22:34:44,143: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-14 22:34:44,159: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-14 22:34:45,203: INFO/MainProcess] mingle: all alone
+[2020-07-14 22:34:45,226: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-14 22:34:45,228: INFO/MainProcess] celery@369e840ef38a ready.
+[2020-07-14 22:38:37,082: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-14 22:38:37,103: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-14 22:38:38,140: INFO/MainProcess] mingle: all alone
+[2020-07-14 22:38:38,165: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-14 22:38:38,167: INFO/MainProcess] celery@5e77cacfe711 ready.
+[2020-07-14 22:42:44,521: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-14 22:42:44,551: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-14 22:42:45,596: INFO/MainProcess] mingle: all alone
+[2020-07-14 22:42:45,615: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-14 22:42:45,617: INFO/MainProcess] celery@93c4d158707f ready.
+[2020-07-14 22:42:45,871: INFO/MainProcess] Received task: scraper.sample_tasks.store_shopee_brands[e76935ea-f035-4701-b39b-0508701f8dd1]  
+[2020-07-14 22:42:45,875: WARNING/ForkPoolWorker-1] over here 3
+[2020-07-14 22:42:45,885: ERROR/ForkPoolWorker-1] Task scraper.sample_tasks.store_shopee_brands[e76935ea-f035-4701-b39b-0508701f8dd1] raised unexpected: TypeError('scrape_shopee_brands() takes 0 positional arguments but 1 was given')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/scraper/sample_tasks.py", line 22, in store_shopee_brands
+    return scrape_shopee_brands(keyword)
+TypeError: scrape_shopee_brands() takes 0 positional arguments but 1 was given
+[2020-07-14 22:44:26,594: INFO/MainProcess] Received task: scraper.sample_tasks.store_shopee_brands[e31ce31b-c233-4c38-a759-bd0cd49fe04b]  
+[2020-07-14 22:44:26,599: WARNING/ForkPoolWorker-1] over here 3
+[2020-07-14 22:44:26,606: ERROR/ForkPoolWorker-1] Task scraper.sample_tasks.store_shopee_brands[e31ce31b-c233-4c38-a759-bd0cd49fe04b] raised unexpected: TypeError('scrape_shopee_brands() takes 0 positional arguments but 1 was given')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/scraper/sample_tasks.py", line 22, in store_shopee_brands
+    return scrape_shopee_brands(keyword)
+TypeError: scrape_shopee_brands() takes 0 positional arguments but 1 was given
+[2020-07-14 22:47:26,458: INFO/MainProcess] Received task: scraper.sample_tasks.store_shopee_brands[59345e88-f683-4142-8839-1565a1c5d290]  
+[2020-07-14 22:47:26,461: WARNING/ForkPoolWorker-1] over here 3
+[2020-07-14 22:47:26,465: ERROR/ForkPoolWorker-1] Task scraper.sample_tasks.store_shopee_brands[59345e88-f683-4142-8839-1565a1c5d290] raised unexpected: TypeError('scrape_shopee_brands() takes 0 positional arguments but 1 was given')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/scraper/sample_tasks.py", line 22, in store_shopee_brands
+    return scrape_shopee_brands(keyword)
+TypeError: scrape_shopee_brands() takes 0 positional arguments but 1 was given
+[2020-07-14 22:49:07,733: INFO/MainProcess] Received task: scraper.sample_tasks.store_shopee_brands[b776292d-3558-44f0-9b79-2f27d5843961]  
+[2020-07-14 22:49:07,736: WARNING/ForkPoolWorker-1] over here 3
+[2020-07-14 22:49:07,738: ERROR/ForkPoolWorker-1] Task scraper.sample_tasks.store_shopee_brands[b776292d-3558-44f0-9b79-2f27d5843961] raised unexpected: TypeError('scrape_shopee_brands() takes 0 positional arguments but 1 was given')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/scraper/sample_tasks.py", line 22, in store_shopee_brands
+    return scrape_shopee_brands(keyword)
+TypeError: scrape_shopee_brands() takes 0 positional arguments but 1 was given
+[2020-07-14 22:49:20,369: INFO/MainProcess] Received task: scraper.sample_tasks.store_shopee_brands[b2f275a2-ec89-4a33-8b48-590034962f8e]  
+[2020-07-14 22:49:20,376: WARNING/ForkPoolWorker-1] over here 3
+[2020-07-14 22:49:20,382: ERROR/ForkPoolWorker-1] Task scraper.sample_tasks.store_shopee_brands[b2f275a2-ec89-4a33-8b48-590034962f8e] raised unexpected: TypeError('scrape_shopee_brands() takes 0 positional arguments but 1 was given')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/scraper/sample_tasks.py", line 22, in store_shopee_brands
+    return scrape_shopee_brands(keyword)
+TypeError: scrape_shopee_brands() takes 0 positional arguments but 1 was given
+[2020-07-14 22:49:33,754: INFO/MainProcess] Received task: scraper.sample_tasks.store_shopee_brands[67a6b6c7-9138-4686-94ff-09633fa476e6]  
+[2020-07-14 22:49:33,757: WARNING/ForkPoolWorker-1] over here 3
+[2020-07-14 22:49:33,762: ERROR/ForkPoolWorker-1] Task scraper.sample_tasks.store_shopee_brands[67a6b6c7-9138-4686-94ff-09633fa476e6] raised unexpected: TypeError('scrape_shopee_brands() takes 0 positional arguments but 1 was given')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/scraper/sample_tasks.py", line 22, in store_shopee_brands
+    return scrape_shopee_brands(keyword)
+TypeError: scrape_shopee_brands() takes 0 positional arguments but 1 was given
+[2020-07-14 22:50:36,472: INFO/MainProcess] Received task: scraper.sample_tasks.store_shopee_brands[4d8fce51-7127-48a5-ad17-e8c18132db46]  
+[2020-07-14 22:50:36,475: WARNING/ForkPoolWorker-1] over here 3
+[2020-07-14 22:50:36,478: ERROR/ForkPoolWorker-1] Task scraper.sample_tasks.store_shopee_brands[4d8fce51-7127-48a5-ad17-e8c18132db46] raised unexpected: TypeError('scrape_shopee_brands() takes 0 positional arguments but 1 was given')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/scraper/sample_tasks.py", line 22, in store_shopee_brands
+    return scrape_shopee_brands(keyword)
+TypeError: scrape_shopee_brands() takes 0 positional arguments but 1 was given
+[2020-07-14 22:51:20,106: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-14 22:51:20,124: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-14 22:51:21,160: INFO/MainProcess] mingle: all alone
+[2020-07-14 22:51:21,196: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-14 22:51:21,198: INFO/MainProcess] celery@9cacc6c09200 ready.
+[2020-07-14 22:51:21,410: INFO/MainProcess] Received task: scraper.sample_tasks.store_shopee_brands[c0265057-d51f-4c21-9f7c-df25bcbd88c8]  
+[2020-07-14 22:51:21,417: WARNING/ForkPoolWorker-1] over here 3
+[2020-07-14 22:51:21,429: ERROR/ForkPoolWorker-1] Task scraper.sample_tasks.store_shopee_brands[c0265057-d51f-4c21-9f7c-df25bcbd88c8] raised unexpected: TypeError('scrape_shopee_brands() takes 0 positional arguments but 1 was given')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/scraper/sample_tasks.py", line 22, in store_shopee_brands
+    return scrape_shopee_brands(keyword)
+TypeError: scrape_shopee_brands() takes 0 positional arguments but 1 was given
+[2020-07-14 22:51:55,251: INFO/MainProcess] Received task: scraper.sample_tasks.store_shopee_brands[6ab58347-6d84-44cd-94d2-6797cfed4290]  
+[2020-07-14 22:51:55,254: WARNING/ForkPoolWorker-1] over here 3
+[2020-07-14 22:51:55,258: ERROR/ForkPoolWorker-1] Task scraper.sample_tasks.store_shopee_brands[6ab58347-6d84-44cd-94d2-6797cfed4290] raised unexpected: TypeError('scrape_shopee_brands() takes 0 positional arguments but 1 was given')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/scraper/sample_tasks.py", line 22, in store_shopee_brands
+    return scrape_shopee_brands(keyword)
+TypeError: scrape_shopee_brands() takes 0 positional arguments but 1 was given
+[2020-07-14 22:52:16,586: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-14 22:52:16,599: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-14 22:52:17,635: INFO/MainProcess] mingle: all alone
+[2020-07-14 22:52:17,660: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-14 22:52:17,662: INFO/MainProcess] celery@e6f0b0a9def8 ready.
+[2020-07-14 22:52:17,920: INFO/MainProcess] Received task: scraper.sample_tasks.store_shopee_brands[607d674e-0db3-4da0-82e0-b4595b9f77be]  
+[2020-07-14 22:52:17,923: WARNING/ForkPoolWorker-1] over here 3
+[2020-07-14 22:52:17,932: ERROR/ForkPoolWorker-1] Task scraper.sample_tasks.store_shopee_brands[607d674e-0db3-4da0-82e0-b4595b9f77be] raised unexpected: TypeError('scrape_shopee_brands() takes 0 positional arguments but 1 was given')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/scraper/sample_tasks.py", line 22, in store_shopee_brands
+    return scrape_shopee_brands(keyword)
+TypeError: scrape_shopee_brands() takes 0 positional arguments but 1 was given
+[2020-07-14 22:53:59,263: INFO/MainProcess] Received task: scraper.sample_tasks.store_shopee_brands[f7930f26-45f5-4d2f-a3c4-3aceda35758c]  
+[2020-07-14 22:53:59,266: WARNING/ForkPoolWorker-1] over here 3
+[2020-07-14 22:53:59,271: ERROR/ForkPoolWorker-1] Task scraper.sample_tasks.store_shopee_brands[f7930f26-45f5-4d2f-a3c4-3aceda35758c] raised unexpected: TypeError('scrape_shopee_brands() takes 0 positional arguments but 1 was given')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/scraper/sample_tasks.py", line 22, in store_shopee_brands
+    return scrape_shopee_brands(keyword)
+TypeError: scrape_shopee_brands() takes 0 positional arguments but 1 was given
+[2020-07-14 22:54:33,222: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-14 22:54:33,259: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-14 22:54:34,313: INFO/MainProcess] mingle: all alone
+[2020-07-14 22:54:34,337: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-14 22:54:34,338: INFO/MainProcess] celery@4b33c6109abc ready.
+[2020-07-14 22:54:34,592: INFO/MainProcess] Received task: scraper.sample_tasks.store_shopee_brands[92cd2c51-50a3-47f3-9d29-6413510954d6]  
+[2020-07-14 22:54:34,597: WARNING/ForkPoolWorker-1] over here 3
+[2020-07-14 23:07:37,110: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-14 23:07:37,140: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-14 23:07:38,176: INFO/MainProcess] mingle: all alone
+[2020-07-14 23:07:38,197: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-14 23:07:38,199: INFO/MainProcess] celery@b7663f825fc6 ready.
+[2020-07-14 23:08:23,156: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_lazada[228cedbd-8a90-478d-8af0-af29479b177b]  
+[2020-07-14 23:08:23,161: WARNING/ForkPoolWorker-1] over here
+[2020-07-14 23:08:23,162: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_shopee[7b70a0f7-f40d-48ad-850d-224618c6ae0b]  
+[2020-07-14 23:08:23,167: WARNING/ForkPoolWorker-3] over here 2
+[2020-07-14 23:08:23,191: ERROR/ForkPoolWorker-3] Task scraper.sample_tasks.create_task_shopee[7b70a0f7-f40d-48ad-850d-224618c6ae0b] raised unexpected: TypeError("scrape() missing 1 required positional argument: 'request'")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/scraper/sample_tasks.py", line 15, in create_task_shopee
+    return get_stats_shopee(keyword)
+  File "/usr/src/app/scraper/scrapers/shopee.py", line 76, in get_stats_shopee
+    result = scrape(keyword)
+TypeError: scrape() missing 1 required positional argument: 'request'
+[2020-07-14 23:10:25,323: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-14 23:10:25,348: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-14 23:10:26,391: INFO/MainProcess] mingle: all alone
+[2020-07-14 23:10:26,413: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-14 23:10:26,415: INFO/MainProcess] celery@b574f823233c ready.
+[2020-07-14 23:10:55,197: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_lazada[3f160cba-85f4-4173-aeb4-29638cc3f64b]  
+[2020-07-14 23:10:55,201: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_shopee[abf333cf-4b45-4cf1-97e0-e3cf9224132a]  
+[2020-07-14 23:10:55,204: WARNING/ForkPoolWorker-1] over here
+[2020-07-14 23:10:55,205: WARNING/ForkPoolWorker-3] over here 2
+[2020-07-14 23:10:55,235: ERROR/ForkPoolWorker-3] Task scraper.sample_tasks.create_task_shopee[abf333cf-4b45-4cf1-97e0-e3cf9224132a] raised unexpected: TypeError("scrape() missing 1 required positional argument: 'request'")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/scraper/sample_tasks.py", line 15, in create_task_shopee
+    return get_stats_shopee(keyword)
+  File "/usr/src/app/scraper/scrapers/shopee.py", line 76, in get_stats_shopee
+    result = scrape(keyword)
+TypeError: scrape() missing 1 required positional argument: 'request'
+[2020-07-14 23:12:14,211: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-14 23:12:14,225: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-14 23:12:15,251: INFO/MainProcess] mingle: all alone
+[2020-07-14 23:12:15,271: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-14 23:12:15,273: INFO/MainProcess] celery@1f83d2e211d4 ready.
+[2020-07-14 23:12:26,892: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_lazada[dbe9e01b-48e3-477a-ab35-91b4bd577c6d]  
+[2020-07-14 23:12:26,897: WARNING/ForkPoolWorker-3] over here
+[2020-07-14 23:12:26,897: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_shopee[66a27a57-d11c-4bcb-bc97-e1946806f6c5]  
+[2020-07-14 23:12:26,901: WARNING/ForkPoolWorker-1] over here 2
+[2020-07-14 23:14:18,718: INFO/ForkPoolWorker-3] Task scraper.sample_tasks.create_task_lazada[dbe9e01b-48e3-477a-ab35-91b4bd577c6d] succeeded in 111.82104701299977s: {'brands': ['Maybelline', 'lameila', 'Miss Rose', 'CELLIGHT 8', 'Lagivado', 'ByRossie', 'images', 'kisson', 'EOM', 'Kiss Beauty', 'BBia', 'Chu Lipstick', 'HOJOJODO', 'NEOP', '3CE'], 'stats': [{'brand': 'Maybelline', 'share': 0}, {'brand': 'lameila', 'share': 0}, {'brand': 'Miss Rose', 'share': 2}, {'brand': 'CELLIGHT 8', 'share': 2}, {'brand': 'Lagivado', 'share': 8}, {'brand': 'ByRossie', 'share': 8}, {'brand': 'images', 'share': 8}, {'brand': 'kisson', 'share': 8}, {'brand': 'EOM', 'share': 8}, {'brand': 'Kiss Beauty', 'share': 8}, {'brand': 'BBia', 'share': 8}, {'brand': 'Chu Lipstick', 'share': 8}, {'brand': 'HOJOJODO', 'share': 8}, {'brand': 'NEOP', 'share': 8}, {'brand': '3CE', 'share': 10}]}
+[2020-07-14 23:24:52,503: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-14 23:24:52,519: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-14 23:24:53,554: INFO/MainProcess] mingle: all alone
+[2020-07-14 23:24:53,579: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-14 23:24:53,580: INFO/MainProcess] celery@cfea2255cf0d ready.
+[2020-07-14 23:24:53,716: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_lazada[8085e42d-1cf0-4c82-80be-2063c670e37a]  
+[2020-07-14 23:24:53,719: WARNING/ForkPoolWorker-1] over here
+[2020-07-14 23:24:53,720: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_shopee[3a83c77d-626f-471c-8277-0287831b24a5]  
+[2020-07-14 23:24:53,724: WARNING/ForkPoolWorker-3] over here 2
+[2020-07-14 23:25:08,713: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_shopee[52f3f726-99c9-43ac-9ec9-953459380055]  
+[2020-07-14 23:25:08,717: WARNING/ForkPoolWorker-2] over here 2
+[2020-07-14 23:26:23,945: INFO/ForkPoolWorker-1] Task scraper.sample_tasks.create_task_lazada[8085e42d-1cf0-4c82-80be-2063c670e37a] succeeded in 90.22591923400068s: {'brands': ['Maybelline', 'lameila', 'Miss Rose', 'CELLIGHT 8', 'Lagivado', 'ByRossie', 'images', 'kisson', 'EOM', 'Kiss Beauty', 'BBia', 'Chu Lipstick', 'HOJOJODO', 'NEOP', '3CE'], 'stats': [{'brand': 'Maybelline', 'share': 0}, {'brand': 'lameila', 'share': 0}, {'brand': 'Miss Rose', 'share': 2}, {'brand': 'CELLIGHT 8', 'share': 2}, {'brand': 'Lagivado', 'share': 8}, {'brand': 'ByRossie', 'share': 8}, {'brand': 'images', 'share': 8}, {'brand': 'kisson', 'share': 8}, {'brand': 'EOM', 'share': 8}, {'brand': 'Kiss Beauty', 'share': 8}, {'brand': 'BBia', 'share': 8}, {'brand': 'Chu Lipstick', 'share': 8}, {'brand': 'HOJOJODO', 'share': 8}, {'brand': 'NEOP', 'share': 8}, {'brand': '3CE', 'share': 10}]}
+[2020-07-14 23:30:01,745: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-14 23:30:01,765: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-14 23:30:02,795: INFO/MainProcess] mingle: all alone
+[2020-07-14 23:30:02,818: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-14 23:30:02,820: INFO/MainProcess] celery@393853b66c73 ready.
+[2020-07-14 23:30:17,972: INFO/MainProcess] Received task: scraper.sample_tasks.create_task_shopee[f287ea59-8d92-4655-b9f7-933c02baf0d3]  
+[2020-07-14 23:30:17,976: WARNING/ForkPoolWorker-1] over here 2
+[2020-07-15 01:27:34,076: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-15 01:27:34,098: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-15 01:27:35,137: INFO/MainProcess] mingle: all alone
+[2020-07-15 01:27:35,162: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-15 01:27:35,164: INFO/MainProcess] celery@aac90eb560ed ready.
+[2020-07-15 01:28:30,863: INFO/MainProcess] Received task: scraper.celery_tasks.create_task_lazada[603a6eb4-4151-4446-bd50-35ffe84a79cc]  
+[2020-07-15 01:28:30,868: INFO/MainProcess] Received task: scraper.celery_tasks.create_task_shopee[2f5d70e1-ea73-4e0c-9644-de22ad2a81f0]  
+[2020-07-15 01:28:30,870: WARNING/ForkPoolWorker-3] scraping lazada
+[2020-07-15 01:28:30,871: WARNING/ForkPoolWorker-1] scraping shopee
+[2020-07-15 01:29:14,913: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-15 01:29:14,933: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-15 01:29:15,965: INFO/MainProcess] mingle: all alone
+[2020-07-15 01:29:15,985: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-15 01:29:15,986: INFO/MainProcess] celery@c75afff3c4ce ready.
+[2020-07-15 01:29:56,890: INFO/MainProcess] Received task: scraper.celery_tasks.create_task_lazada[de3aac4c-89c2-4f1c-81d2-ca7fa55fd406]  
+[2020-07-15 01:29:56,896: INFO/MainProcess] Received task: scraper.celery_tasks.create_task_shopee[dd481f40-56b6-47b5-940e-912b67000eec]  
+[2020-07-15 01:29:56,900: WARNING/ForkPoolWorker-3] scraping shopee
+[2020-07-15 01:29:56,900: WARNING/ForkPoolWorker-1] scraping lazada
+[2020-07-15 01:31:06,733: INFO/ForkPoolWorker-1] Task scraper.celery_tasks.create_task_lazada[de3aac4c-89c2-4f1c-81d2-ca7fa55fd406] succeeded in 69.83286414600116s: {'brands': ['Maybelline', 'lameila', 'Miss Rose', 'CELLIGHT 8', 'Lagivado', 'ByRossie', 'images', 'beatbox', 'kisson', 'EOM', 'SANIYE', 'Kiss Beauty', 'BBia', 'Chu Lipstick', 'HOJOJODO', 'NEOP', '3CE'], 'stats': [{'brand': 'Maybelline', 'share': 0}, {'brand': 'lameila', 'share': 0}, {'brand': 'Miss Rose', 'share': 0}, {'brand': 'CELLIGHT 8', 'share': 0}, {'brand': 'Lagivado', 'share': 5}, {'brand': 'ByRossie', 'share': 5}, {'brand': 'images', 'share': 5}, {'brand': 'beatbox', 'share': 5}, {'brand': 'kisson', 'share': 5}, {'brand': 'EOM', 'share': 5}, {'brand': 'SANIYE', 'share': 8}, {'brand': 'Kiss Beauty', 'share': 8}, {'brand': 'BBia', 'share': 8}, {'brand': 'Chu Lipstick', 'share': 8}, {'brand': 'HOJOJODO', 'share': 8}, {'brand': 'NEOP', 'share': 8}, {'brand': '3CE', 'share': 12}]}
+[2020-07-15 01:40:53,160: INFO/MainProcess] Received task: scraper.celery_tasks.create_task_lazada[225212ca-c9f4-4f15-b4ae-9a6cf244e947]  
+[2020-07-15 01:40:53,165: INFO/MainProcess] Received task: scraper.celery_tasks.create_task_shopee[76964119-d43d-459d-b7d4-297f8bbf6e2f]  
+[2020-07-15 01:40:53,169: WARNING/ForkPoolWorker-1] scraping lazada
+[2020-07-15 01:40:53,171: WARNING/ForkPoolWorker-2] scraping shopee
+[2020-07-15 01:41:55,669: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-15 01:41:55,686: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-15 01:41:56,724: INFO/MainProcess] mingle: all alone
+[2020-07-15 01:41:56,747: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-15 01:41:56,749: INFO/MainProcess] celery@7062a70c5c19 ready.
+[2020-07-15 01:42:06,505: INFO/MainProcess] Received task: scraper.celery_tasks.create_task_lazada[58456fe3-9762-4dc7-b6e8-d57c7a48e3d9]  
+[2020-07-15 01:42:06,510: WARNING/ForkPoolWorker-1] scraping lazada
+[2020-07-15 01:42:06,510: INFO/MainProcess] Received task: scraper.celery_tasks.create_task_shopee[6dd021f9-c63d-4bc0-bd27-83f296e55cf8]  
+[2020-07-15 01:42:06,513: WARNING/ForkPoolWorker-3] scraping shopee
+[2020-07-15 01:48:36,308: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-15 01:48:36,327: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-15 01:48:37,359: INFO/MainProcess] mingle: all alone
+[2020-07-15 01:48:37,382: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-15 01:48:37,383: INFO/MainProcess] celery@f14cff9c8767 ready.
+[2020-07-15 01:59:30,886: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-15 01:59:30,915: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-15 01:59:31,956: INFO/MainProcess] mingle: all alone
+[2020-07-15 01:59:32,006: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-15 01:59:32,011: INFO/MainProcess] celery@42ca74a4c6cf ready.
+[2020-07-15 02:11:35,569: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-15 02:11:35,587: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-15 02:11:36,613: INFO/MainProcess] mingle: all alone
+[2020-07-15 02:11:36,636: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-15 02:11:36,637: INFO/MainProcess] celery@e6cd3ccd7b1a ready.
+[2020-07-15 02:12:45,979: INFO/MainProcess] Received task: scraper.celery_tasks.create_task_lazada[9164b79f-aa2e-4550-911b-5b72b71b0a69]  
+[2020-07-15 02:12:45,983: INFO/MainProcess] Received task: scraper.celery_tasks.create_task_shopee[c0f3431e-a6c8-4030-adea-66aac8badc67]  
+[2020-07-15 02:12:45,985: WARNING/ForkPoolWorker-3] scraping shopee
+[2020-07-15 02:12:45,985: WARNING/ForkPoolWorker-1] scraping lazada
+[2020-07-15 02:13:00,908: INFO/MainProcess] Received task: scraper.celery_tasks.create_task_lazada[27737031-22e6-48e2-812e-081e77a958dd]  
+[2020-07-15 02:13:00,937: INFO/MainProcess] Received task: scraper.celery_tasks.create_task_shopee[ebfbcc87-d4f1-49b5-a4e3-e386bd878236]  
+[2020-07-15 02:13:00,958: WARNING/ForkPoolWorker-2] scraping lazada
+[2020-07-15 02:13:00,960: WARNING/ForkPoolWorker-4] scraping shopee
+[2020-07-15 02:13:29,219: ERROR/ForkPoolWorker-2] Task scraper.celery_tasks.create_task_lazada[27737031-22e6-48e2-812e-081e77a958dd] raised unexpected: IndexError('list index out of range')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/scraper/celery_tasks.py", line 10, in create_task_lazada
+    return get_stats(keyword)
+  File "/usr/src/app/scraper/scrapers/lazada.py", line 37, in get_stats
+    result = scrape(keyword)
+  File "/usr/src/app/scraper/scrapers/lazada.py", line 14, in scrape
+    brands_div = soup_lazada.find_all('div', class_='c2cYd1')[1]
+IndexError: list index out of range
+[2020-07-15 02:14:01,275: INFO/MainProcess] Received task: scraper.celery_tasks.create_task_lazada[7759f2e2-09af-4853-9f06-79bd97acfe4b]  
+[2020-07-15 02:14:01,282: WARNING/ForkPoolWorker-2] scraping lazada
+[2020-07-15 02:14:01,286: INFO/MainProcess] Received task: scraper.celery_tasks.create_task_shopee[c2682c84-fc5f-412e-9789-7a61022552c1]  
+[2020-07-15 02:15:55,698: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-15 02:15:55,725: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-15 02:15:56,764: INFO/MainProcess] mingle: all alone
+[2020-07-15 02:15:56,786: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-15 02:15:56,787: INFO/MainProcess] celery@70ba86b2763b ready.
+[2020-07-15 02:34:09,218: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-07-15 02:34:09,231: INFO/MainProcess] mingle: searching for neighbors
+[2020-07-15 02:34:10,261: INFO/MainProcess] mingle: all alone
+[2020-07-15 02:34:10,284: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-07-15 02:34:10,286: INFO/MainProcess] celery@bd8fa93d6924 ready.
+[2020-07-15 02:35:08,347: INFO/MainProcess] Received task: scraper.celery_tasks.create_task_lazada[b44398ec-d00d-47f1-960e-31757a633d40]  
+[2020-07-15 02:35:08,356: INFO/MainProcess] Received task: scraper.celery_tasks.create_task_shopee[378c6190-b463-4f48-b031-bab42677fd97]  
+[2020-07-15 02:35:08,359: WARNING/ForkPoolWorker-3] scraping shopee
+[2020-07-15 02:35:08,359: WARNING/ForkPoolWorker-1] scraping lazada
+[2020-07-15 02:36:55,650: INFO/ForkPoolWorker-1] Task scraper.celery_tasks.create_task_lazada[b44398ec-d00d-47f1-960e-31757a633d40] succeeded in 107.29365984600008s: {'brands': ['Maybelline', 'lameila', 'Miss Rose', 'CELLIGHT 8', 'Lagivado', 'ByRossie', 'images', 'kisson', 'EOM', 'Kiss Beauty', 'BBia', 'Chu Lipstick', 'NEOP', '3CE'], 'stats': [{'brand': 'Maybelline', 'share': 0}, {'brand': 'lameila', 'share': 0}, {'brand': 'Miss Rose', 'share': 0}, {'brand': 'CELLIGHT 8', 'share': 0}, {'brand': 'Lagivado', 'share': 5}, {'brand': 'ByRossie', 'share': 5}, {'brand': 'images', 'share': 5}, {'brand': 'kisson', 'share': 5}, {'brand': 'EOM', 'share': 5}, {'brand': 'Kiss Beauty', 'share': 5}, {'brand': 'BBia', 'share': 5}, {'brand': 'Chu Lipstick', 'share': 8}, {'brand': 'NEOP', 'share': 8}, {'brand': '3CE', 'share': 8}]}

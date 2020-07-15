@@ -1,22 +1,21 @@
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpRequest
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
 from celery.result import AsyncResult
-
-# from scrapper.sample_tasks import create_task
-
-from scraper.sample_tasks import create_task
+from scraper.celery_tasks import create_task_lazada, create_task_shopee
+from importlib import import_module
+from django.conf import settings
 
 @csrf_exempt
 def run_task(request):    
-    if request.POST:
-        print('potato')        
+    if request.POST:        
         try:
             keyword = request.POST.get('keyword')                        
-            task = create_task.delay(keyword)
+            task_lazada = create_task_lazada.delay(keyword)
+            task_shopee = create_task_shopee.delay(keyword)
         except Exception as e:
             print(e)        
-        return JsonResponse({'task_id': task.id}, status=202)
+        return JsonResponse({'task_lazada_id': task_lazada.id, 'task_shopee_id': task_shopee.id}, status=202)
 
 
 @csrf_exempt
@@ -28,4 +27,4 @@ def get_status(request, task_id):
         "task_result": task_result.result
     }
     return JsonResponse(result, status=200)
-
+    

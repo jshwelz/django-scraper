@@ -12,5 +12,5 @@ urlpatterns = [
     path("scrape/", run_task, name="run_task"),
     path("dashboard/", views.home, name="home"),
     # path('dashboard/<str:product_name>', views.search, name='search')
-
 ]
+

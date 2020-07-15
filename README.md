@@ -9,7 +9,7 @@ This project looks for a item on some ecommerce site and show the share of searc
     -   [How to Run Backend Server][3]
     -   [Run Unit Testing][3]
 -   [Usage][4]
-    -   [Authentication Token][5]
+    -   
 
 ## Getting Started
 

@@ -8,7 +8,7 @@ def scrape(keyword):
     brands = []
     url_lazada = 'https://www.lazada.vn/catalog/?q='+keyword
     page = requests.get(
-        'http://api.scraperapi.com?api_key=ff75da59d446351439f996b501ed6f87&url='+url_lazada+'&render=true')    
+        'http://api.scraperapi.com?api_key=d7602b450bf01e4f56a99e96a5174f6e&url='+url_lazada+'&render=true')    
     soup_lazada = BeautifulSoup(page.content, 'html5lib')
 
     brands_div = soup_lazada.find_all('div', class_='c2cYd1')[1]
@@ -21,7 +21,7 @@ def scrape(keyword):
         url_lazada = 'https://www.lazada.vn/catalog/?q=' + \
             keyword+'&page='+str(i)
         page = requests.get(
-            'http://api.scraperapi.com?api_key=ff75da59d446351439f996b501ed6f87&url='+url_lazada+'&render=true')
+            'http://api.scraperapi.com?api_key=d7602b450bf01e4f56a99e96a5174f6e&url='+url_lazada+'&render=true')
         soup_shopee = BeautifulSoup(page.content, 'html5lib')
 
         table = soup_lazada.find('div', attrs={'class': 'c1_t2i'})
